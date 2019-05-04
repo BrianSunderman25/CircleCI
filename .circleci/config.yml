@@ -7,4 +7,4 @@ jobs:
     steps:
       - checkout
       - run: echo "hello world"
-      - run: apt-get update -y && apt-get install make -y && apt-get install git -y && apt-get install libcursesw5-dev -y && apt-get install libcurl4-openssl-dev -y
+      - run: sudo apt-get update -y && sudo apt-get install make -y && sudo apt-get install git -y && sudo apt-get install libcursesw5-dev -y && sudo apt-get install libcurl4-openssl-dev -y
