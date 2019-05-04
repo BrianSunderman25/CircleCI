@@ -8,3 +8,4 @@ jobs:
       - checkout
       - run: echo "hello world"
       - run: apt-get update -y && apt-get install make -y
+      - run: apt-get install git -y
