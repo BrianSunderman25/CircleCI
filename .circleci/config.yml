@@ -7,4 +7,4 @@ jobs:
     steps:
       - checkout
       - run: echo "hello world"
-      - run: apt-get update -y
+      - run: apt-get update -y && apt-get install make -y
