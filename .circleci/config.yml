@@ -7,9 +7,9 @@ jobs:
     steps:
       - checkout
       
-      - run: apt-get update -y
-      - run: apt-get install make -y
-      - run: apt-get install git -y
-      - run: apt-get install gcc -y
-      - run: apt-get install libncursesw5-dev -y
-      - run: apt-get install libcurl4-openssl-dev -y
+      - run: sudo apt-get update -y
+      - run: sudo apt-get install make -y
+      - run: sudo apt-get install git -y
+      - run: sudo apt-get install gcc -y
+      - run: sudo apt-get install libncursesw5-dev -y
+      - run: sudo apt-get install libcurl4-openssl-dev -y
