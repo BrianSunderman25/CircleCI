@@ -3,7 +3,8 @@ jobs:
   build:
     docker:
       - image: ubuntu:18.04
-        command: ["RUN apt-get update -y && apt-get install -y"]
+      - run: apt-get update -y
+      - run: apt-get install make -y
     steps:
       - checkout
       - run: echo "hello world"
