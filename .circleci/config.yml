@@ -6,6 +6,10 @@ jobs:
       
     steps:
       - checkout
-      - run: echo "hello world"
-      - run: apt-get update -y && apt-get install make -y
+      
+      - run: apt-get update -y
+      - run: apt-get install make -y
       - run: apt-get install git -y
+      - run: apt-get install gcc -y
+      - run: apt-get install libncursesw5-dev -y
+      - run: apt-get install libcurl4-openssl-dev -y
