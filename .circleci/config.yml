@@ -6,10 +6,7 @@ jobs:
       
     steps:
       - checkout
-      
-      - run:
-          command: |
-            sudo killall apt apt-get
+     
       - run: 
           command: |
-            apt-get update -y | apt-get install make -y | apt-get install git -y | apt-get install gcc -y | apt-get install libncursesw5-dev -y | apt-get install libcurl4-openssl-dev -y
+            apt-get update | apt-get install make | apt-get install git | apt-get install gcc | apt-get install libncursesw5-dev
