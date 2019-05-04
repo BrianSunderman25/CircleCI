@@ -2,7 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: ubuntu:18.04
+        command: ["RUN apt-get update -y && apt-get install -y \ make \ gcc \ lincursesw5-dev \ git \ libcurl4-openssl-dev"]
     steps:
       - checkout
-      - run: echo "A first hello"
+      - run: echo "hello world"
