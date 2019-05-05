@@ -8,4 +8,4 @@ jobs:
       
       - run:
           name: build project
-          command: 'cd cReddit'
+          command: 'cd cReddit' | 'ls'
