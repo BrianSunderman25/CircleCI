@@ -9,7 +9,7 @@ jobs:
       - run:
           name: build project
           command: |
-             cd /root/project/cReddit | ls
+             cd /root/project/cReddit && ls
           
       
           
