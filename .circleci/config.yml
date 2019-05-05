@@ -10,3 +10,11 @@ jobs:
           name: build project
           command: 'cd cReddit'
           
+      - run:
+          name: make
+          command: 'make'
+      
+      - run:
+          name: build install
+          command: 'make install'
+          
