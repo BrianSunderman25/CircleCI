@@ -14,5 +14,7 @@ jobs:
           name: make
           command: 'cd cReddit'
       
-      
+      - run:
+          name: make install
+          command: 'ls'
           
