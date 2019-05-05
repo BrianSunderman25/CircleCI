@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker: # use the docker executor type; machine and macos executors are also supported
-      - image: sundermanwr25/centos_7.3:latest # the primary container, where your job's commands are run
+      - image: sundermanwr25/centos_7.3:0.0.1 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
       
