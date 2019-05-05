@@ -12,9 +12,7 @@ jobs:
           
       - run:
           name: make
-          command: 'make'
+          command: 'ls'
       
-      - run:
-          name: build install
-          command: 'make install'
+      
           
