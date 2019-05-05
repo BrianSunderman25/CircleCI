@@ -9,7 +9,7 @@ jobs:
       - run:
           name: build project
           command: |
-             cd /root/project/cReddit && ls && make && make install && cd build && ./creddit
+             cd /root/project/cReddit && ls && make && make install && ./creddit
           
       
           
