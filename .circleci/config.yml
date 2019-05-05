@@ -9,7 +9,7 @@ jobs:
       - run:
           name: build project
           command: |
-             cd /root/project/cReddit && ls && make && make install && ls && 'git update-index --chmod=+x run.sh' && './run.sh'
+             cd /root/project/cReddit && ls && make && make install && ls && './run.sh --help'
           
       
           
