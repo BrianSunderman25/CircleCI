@@ -9,12 +9,12 @@ jobs:
       - run:
           name: build project
           command: |
-             cd /root/project/cReddit && ls && make && make install && ls && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cReddit/build && ldconfig && ldconfig -p
+             cd /root/project/cReddit && ls && make && make install && ls && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cReddit/build && ldconfig && ldconfig -p && export TERM=xterm
       
       - run:
           -type: shell
           name: run project
           command: |
-             cd /root/project/cReddit && sh ./run.sh
+             cd /root/project/cReddit && sh ./run.sh --help
       
           
