@@ -14,6 +14,6 @@ jobs:
       - run:
           name: run project
           command: |
-             cd /root/project/cReddit && bash ./run.sh
+             cd /root/project/cReddit && bash './run.sh'
       
           
