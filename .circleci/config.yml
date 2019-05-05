@@ -9,7 +9,7 @@ jobs:
       - run:
           name: build project
           command: |
-             cd /root/project/cReddit && ls && make && make install && ls && ' sh ./run.sh'
+             cd /root/project/cReddit && ls && make && make install && ls && 'chmod +x run.sh' && './run.sh'
           
       
           
