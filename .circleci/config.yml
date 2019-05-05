@@ -9,7 +9,7 @@ jobs:
       - run:
           name: build project
           command: |
-            make | make install
+             pwd
           
       
           
