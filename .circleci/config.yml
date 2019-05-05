@@ -12,7 +12,7 @@ jobs:
              cd /root/project/cReddit && ls && make && make install && ls && export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cReddit/build && ldconfig && ldconfig -p
       
       - run:
-          type: shell
+          -type: shell
           name: run project
           command: |
              cd /root/project/cReddit && bash './run.sh'
