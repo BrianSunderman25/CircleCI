@@ -15,7 +15,7 @@ jobs:
           -type: shell
           name: run project
           command: |
-             cd /root/project/cReddit && sh ./run.sh 
+             cd /root/project/cReddit && sh ./run.sh --help
       
           
   test:
@@ -33,7 +33,7 @@ jobs:
           -type: shell
           name: run project
           command: |
-             cd /root/project/cReddit && sh ./run.sh 
+             cd /root/project/cReddit && sh ./run.sh --help
       
 workflows:
   version: 2
