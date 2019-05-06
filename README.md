@@ -1,1 +1,1 @@
-# CircleCI for devops
+# CircleCI
